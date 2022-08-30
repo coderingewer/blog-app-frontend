@@ -1,0 +1,26 @@
+@media  only screen and (min-width: 992px){
+.best-list {
+    width: 100%;
+}
+
+.carousel-image {
+ 
+    border-radius: 10px;
+    
+}
+}
+
+@media  only screen and (max-width: 993px){
+    .best-list {
+        width: 100%;
+    }
+    
+    .carousel-image {
+     
+        border-radius: 10px;
+        width: 80%;
+        
+    }
+    }
+
+

@@ -1,0 +1,236 @@
+.signup-form {
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+.user-card-body {
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+
+}
+
+.user-card-body img {
+    border-radius: 100%;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.user-posts {
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    overflow: scroll;
+    margin-top: -70px;
+}
+
+#user-posts-title {
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#sign-out-btn {
+    color: whitesmoke;
+    background-image: linear-gradient(to left, #834949, #fc3c3c, #fd5e5e, #ffc0c0);
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 75%;
+    border: none;
+    width: 60px;
+}
+
+.user-details {
+    margin-left: 80px;
+    text-align: center;
+}
+.user-details h1 {
+    font-size: 24px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.signout-form {
+    background-color: #ccc;
+    height: 50px;
+    width: 60px;
+    margin-left: 90%;
+}
+
+.signout-form button {
+    height: 40px;
+    font-size: small;
+}
+
+.signup-inputs {
+    margin: 20px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.signup-inputs input {
+    margin: 10px;
+    width: 100%;
+    height: 30px;
+    max-height: 40px;
+    text-align:center;
+    border-radius:10px;
+    border: none;
+    background-color: rgb(229, 235, 240);
+
+}
+#signupbtn {
+    margin-top: 20px;
+    width: 100px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(1, 214, 97);
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    background-image: linear-gradient(to top, #7A86B6, #A8A4CE, #C8B6E2);
+    border-radius: 10px;
+}
+
+.edit-link {
+    margin-left: -270px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width: 995px) {
+    .profile {
+        width: 300px;
+        height: 250px;
+    }
+    .my-profie{
+        margin-top: 100px;
+        display: block;
+    }
+    .my-posts {
+        width: 500px;
+        margin-left: 350px;
+        margin-top: -250px;
+        height: 700px;
+      
+    }
+    .signup-form {
+        margin-top: 200px;
+        margin-left:25%;
+        margin-right: 25%;
+        width: 40%;
+    }
+
+    .profile-details{
+        text-align: center;
+        margin-left: 80px;
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 994px) {
+    .profile {
+        margin-bottom: 10px;
+        width: 300px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .edit-link {
+        margin-top: 20px;
+        height: 30px;
+    }
+
+    .user-card-body img {
+        margin-left: 100px;
+    }
+    .user-details h1 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .profile-details{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .my-profie {
+        margin-top: 50px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 100px;
+    }
+
+    .my-posts {
+        width: 300px;
+        height: 400px;
+        margin:auto;
+    }
+    .signup-form {
+        margin-top: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+
+}
+
+.my-posts-title {
+    margin-top: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-weight: 300;
+    font-size: 28px;
+    background-image: linear-gradient(to left,  #7A86B6, #A8A4CE, #C8B6E2);
+    border-radius: 10px;
+
+}
+
+.user-details {
+    margin:auto;
+}
+
+
+
+.my-posts {
+    overflow: scroll;
+    text-align: center;
+    border:none;
+    border-radius: 10px;
+}
+
+.change-password{
+    margin-top: 100px;
+}
+
+.edit-link {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    color: aliceblue;
+    text-align: center;
+    background-image: linear-gradient(to left, #495C83, #7A86B6, #A8A4CE, #C8B6E2);
+    font-weight: 600;
+}

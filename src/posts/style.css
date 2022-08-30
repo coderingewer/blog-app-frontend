@@ -1,0 +1,553 @@
+@media only screen and (min-width: 995px) {
+    .post-img {
+        width: 300px;
+        height: 100%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .colorful-div {
+        width: 1.5%;
+        background-image: linear-gradient(to bottom, #495C83, #7A86B6, #A8A4CE, #C8B6E2);
+    }
+
+    .article-title{
+        text-align: left;
+        margin-bottom: 20px;
+        word-break: keep-all;
+    }
+
+    .article-title h1{
+        margin-top: 40px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .post-title {
+        font-size: 28px;
+        font-weight: 600;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        overflow: hidden;
+        width: 400px;
+        height: 150px;
+        word-break: keep-all;
+    }
+
+    .post {
+        margin:auto;
+        word-break: keep-all;
+        border-radius: 10px;
+        width: 800px;
+        margin-bottom: 200px;
+        margin-top: 100px;
+    }
+
+    .post-body img {
+        width:100%;
+        height: auto;
+        word-break: keep-all;
+        border-radius: 10px;
+    }
+
+    .post-info {
+        width: 100%;
+        height: 200px;
+        word-break: keep-all;
+    }
+
+    .post-content {
+        word-break: keep-all;
+
+    }
+
+    .post-card {
+        margin: auto;
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+
+    .post-author {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        padding-left: 10px;
+        word-break: keep-all;
+    }
+
+    .post-time {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+        color: coral;
+        padding-left: 10px;
+        word-break: keep-all;
+
+    }
+
+    .card-text {
+        overflow: hidden;
+        width: 500px;
+        height: 100px;
+        word-break: keep-all;
+    }
+
+    .card-text p {
+        word-break: keep-all;
+        font-weight: 300;
+        text-align: left;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .card-body {
+        padding-left: 10px;
+        padding-top: 10px;
+        margin: auto;
+        width: 50%;
+
+    }
+
+    .post-list {
+        margin-top: 500px;
+        margin-left: 100px;
+        width: 800px;
+        height: 100%;
+        display: flex;
+        margin-right: 200px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-inputs {
+        width: 700px;
+        overflow: hidden;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .form-inputs label {
+        margin: 10px;
+        font-size:20px;
+        font-weight: 500;
+    }
+
+    .editor-drodown{
+        width: 200px;
+        margin: 20px auto;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+    }
+
+
+    .edit-form {
+        position: relative;
+        margin: 100px auto;
+        border-radius: 10px;
+        width: 900px;
+        background-color: azure;
+    }
+
+    #loading-icon {
+        margin-right: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 994px) {
+
+    .post-img {
+        width: 150px;
+        height: 100%;
+        margin-left: 5px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-title{
+        height: 90px;
+        overflow: hidden;
+    }
+
+    .post-title {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px;
+        word-break: keep-all;
+    }
+
+    .post-card {
+        width: 100%;
+        height: 130px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        word-break: keep-all;
+        display: flex;
+        overflow: hidden;
+
+    }
+
+    .colorful-div {
+        width: 2%;
+        background-image: linear-gradient(to bottom, #495C83, #7A86B6, #A8A4CE, #C8B6E2);
+    }
+
+    .post-author {
+        margin: auto;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: left;
+        padding-left: 10px;
+        word-break: keep-all;
+    }
+
+    .popular-list {
+        display: none;
+    }
+
+    .post-time {
+        font-size: 10px;
+        font-weight: 400;
+        text-align: left;
+        word-break: keep-all;
+        color: coral;
+        padding-left: 10px;
+    }
+
+    .card-text {
+        width: 500px;
+        max-height: 100px;
+        font-weight: 300;
+        text-align: left;
+        padding-bottom: 10px;
+        word-break: keep-all;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .card-body {
+        padding-top: 10px;
+        width: 150px;
+        word-break: keep-all;
+        margin: auto;
+        overflow: hidden;
+        word-break: break-all;
+    }
+
+    .post-list {
+        margin-top: 500px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        word-break: keep-all;
+        padding-bottom: 100px;
+
+    }
+
+    .popular-card {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .article-title{
+        margin-bottom: 20px;
+        word-break: keep-all;
+        text-align: left;
+    }
+
+    .article-title h1{
+        font-size: 24px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+
+    .post {
+        margin-left:20px;
+        margin-top: 100px;
+        margin-right:20px;
+        word-break: keep-all;
+        border-radius: 10px;
+    }
+
+    .post-body img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .post-body iframe {
+        width: 300px;
+        background-color: #495C83;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .post-info {
+        margin-right: auto;
+        height: 100px;
+        word-break: keep-all;
+    }
+
+    .post-content {
+        margin-bottom: 100px;
+        word-break: keep-all;
+    }
+
+    .edit-form {
+        margin-top: 100px;
+        border-radius: 10px;
+        background-color: azure;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .form-inputs {
+        width: auto;
+        margin: 10px;
+    }
+
+    #loading-icon {
+        margin-right: 90%;
+    }
+    #post-loading-icon{
+        margin: auto;
+    }
+
+}
+
+.choice-editor-list {
+    width: 70%;
+    margin: 100px;
+}
+
+.choice-editor-title {
+    font-size: 24px;
+    font-weight: 600;
+    border: gray solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.popular-detail {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+
+}
+
+.popular-author {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+
+.popular-time {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -15px;
+
+    color: coral;
+}
+
+.popular-card {
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+ #post-loading-icon{
+        margin-top: 200px;
+        position: fixed;
+    }
+
+
+.popular-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.popular-title h1 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    max-height: 100px;
+}
+
+
+
+.edit-form input {
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+#update-post-submit {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 30%;
+    color: azure;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(23, 160, 46);
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #495C83;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.editbtn {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.dropbtn {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.upload-img {
+    margin-left: -90%;
+    margin-top: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.user-post {
+    width: 100%;
+}
+
+.deletebtn {
+    color: whitesmoke;
+    background-image: linear-gradient(to left, #834949, #fc3c3c, #fd5e5e, #ffc0c0);
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.editlink {
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    background-image: linear-gradient(to left, #495C83, #7A86B6, #A8A4CE, #C8B6E2);
+    font-weight: 600;
+}
+
+#post-img{
+margin: 200px auto;
+width: 500px;
+}
+
+.notvalid{
+display: none;
+}
+
+.post-view{
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    padding: 2px;
+}
+
+.post-view p {
+    margin-left:10px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+#views-icon{
+    height: 40px;
+    width: auto;
+    margin:0;
+}

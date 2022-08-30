@@ -1,0 +1,59 @@
+#file-input{
+    display: none;
+}
+.update-img{
+  width: 100%;
+    display: flex;
+    border-radius: 10px;
+    border: none;
+}
+
+.file-btn{
+    margin: 10px;
+    word-wrap: break-word;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .file-name{
+    width: 200px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    overflow: auto;
+  }
+
+
+.editor{
+  background-color: aquamarine;
+  margin: 100px;
+  width: 40%;
+  height: 600px;
+}
+.editor img {
+  width: 30px;
+  height: 30px;
+}
+.preview{
+  width: 200px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.preview img {
+  width: 20px;
+
+}
+
+.file-inputs{
+  display: flex;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin:auto;
+  background-color: rgb(214, 223, 223); 
+}
+
+.file-inputs h6{
+  margin: auto; 
+  margin-left: 10px;
+}

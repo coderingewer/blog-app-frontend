@@ -1,0 +1,165 @@
+@media only screen and (min-width: 994px) {
+  .studapp-blog {
+    height: 400px;
+    width: 100%;
+    margin-top: 70px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -330px;
+    background-color: 006A71;
+    background-image: linear-gradient(to right top, #6667ab, #3d86ca, #00a4da, #00c0dc, #00d9d2, #17e6c4, #4cf2af, #7cfb94, #92fe7c, #aaff61, #c6ff40, #e3ff00);
+    display: flex;
+  }
+
+  .explore-items {
+    display: flow-root;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .side-explore {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    margin-left: 850px;
+    padding-top: 100px;
+  }
+
+  .explore-card {
+    width: 30%;
+    margin: 20px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .explore-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  .explore-card h1 {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  .explore-card p {
+    margin-top: -35px;
+    font-size: 16px;
+    opacity: 0.5;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+
+  .slogan {
+    font-size: 50px;
+    margin-block-start: 3em;
+    margin-left: 90px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+
+  .abstract {
+    display: block;
+    font-size: 30px;
+    width: 400px;
+    text-align: left;
+    margin-left: -650px;
+    font-weight: 300;
+    margin-top: 250px;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .studapp-blog {
+    height: 200px;
+    width: 100%;
+    margin-top: 70px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -130px;
+    background-color: 006A71;
+    background-image: linear-gradient(to right top, #6667ab, #3d86ca, #00a4da, #00c0dc, #00d9d2, #17e6c4, #4cf2af, #7cfb94, #92fe7c, #aaff61, #c6ff40, #e3ff00);
+    display: flex;
+  }
+
+  .slogan {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 2.5em;
+    margin-block-end: 0.7em;
+    margin-left: 20%;
+    font-weight: 400;
+    opacity: 0.8;
+    word-break: keep-all;
+    text-align: left;
+    width: 300px;
+  }
+
+  .abstract {
+    display: none;
+  }
+
+
+  .explore-items {
+    display: flow-root;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+#loading {
+  border-radius: 100%;
+  width: 100px;
+  margin-left: 25%;
+  height: 100px;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#edit-img {
+  width: 50%;
+  height: 50%;
+}
+
+file-btn {
+  width: 20px;
+  height: 20px;
+}
+
+.explore-page {
+  text-align: center;
+  margin-top: -50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100%;
+}
+
+#post-not-found {
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#post-not-found h1 {
+  font-weight: 200;
+}
+.notfound{
+  margin-left: 41%;
+  margin-top: -400px;
+}
