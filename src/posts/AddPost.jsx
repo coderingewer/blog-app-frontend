@@ -10,7 +10,6 @@ function AddPost() {
   const postSlc = useSelector(state=>state.posts)
   return (
     <div>
-      {postSlc.isLoading && <Loading/>}
         <Edit/>
       {postSlc.posted && <Navigate to={"/postimg/" + postID}/>}
     </div>

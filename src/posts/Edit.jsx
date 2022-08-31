@@ -8,6 +8,7 @@ import Dashboard from '../layouts/Dashboard';
 import UpdateImage from '../image/UpdateImage';
 import { Editor } from '@tinymce/tinymce-react';
 import axios from 'axios';
+import { ReactDOM } from 'react';
 
 
 function Edit() {
