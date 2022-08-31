@@ -124,7 +124,7 @@ function EditForm(props) {
                                 }}
                             />
                         </div>
-                        <button id="update-post-submit" disabled={values.title && errors && values.category && !disable ? false : true} type='submit' >Kaydet</button>
+                        <button id="update-post-submit" disabled={errors && !disable ? false : true} type='submit' >Kaydet</button>
                     </form>
                 </div>
                 {postSlc.posted && <Navigate to={"/post/" + postId} />}
