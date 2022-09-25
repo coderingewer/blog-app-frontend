@@ -2,14 +2,14 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios"
 
 export const loginAsync = createAsyncThunk("users/loginAsnyc/", async (data) => {
-    const res = await axios.post(`${process.env.REACT_APP_API_GATEWAY_URL}/login`, data);
+    const res = await axios.post(`${process.env.REACT_APP_REQUEST_DOMAIN}/login`, data);
     return res.data;
 
 })
 
 export const registerAsync = createAsyncThunk("users/registerAsnyc/", async (data) => {
     console.log(data)
-    const res = await axios.post(`${process.env.REACT_APP_API_GATEWAY_URL}`, data, {
+    const res = await axios.post(`${process.env.REACT_APP_REQUEST_DOMAIN}`, data, {
         headers: {
             'Authorization': `token ${localStorage.getItem("token")}`
         }
