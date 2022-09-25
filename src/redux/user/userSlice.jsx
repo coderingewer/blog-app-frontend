@@ -9,7 +9,7 @@ export const loginAsync = createAsyncThunk("users/loginAsnyc/", async (data) => 
 
 export const registerAsync = createAsyncThunk("users/registerAsnyc/", async (data) => {
     console.log(data)
-    const res = await axios.post(`${process.env.REACT_APP_REQUEST_DOMAIN}`, data, {
+    const res = await axios.post(`${process.env.REACT_APP_REQUEST_DOMAIN}users/new`, data, {
         headers: {
             'Authorization': `token ${localStorage.getItem("token")}`
         }

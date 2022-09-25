@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios"
 
 export const getPostsAsync = createAsyncThunk("posts/getPostsAsync", async () => {
-    const res = await axios.get(`${process.env.REACT_APP_REQUEST_DOMAIN}/api/posts`);
+    const res = await axios.get(`${process.env.REACT_APP_REQUEST_DOMAIN}posts/getAll`);
     return res.data;
 })
 
@@ -35,12 +35,12 @@ export const updatePostImgsAsync = createAsyncThunk("posts/updatePostImgsAsync",
 })
 
 export const getUserPostsAsync = createAsyncThunk("posts/getUserPostsAsync", async (data) => {
-    const res = await axios.get(`${process.env.REACT_APP_REQUEST_DOMAIN}/posts/getByUserId/` + data.id)
+    const res = await axios.get(`${process.env.REACT_APP_REQUEST_DOMAIN}posts/getByUserId/` + data.id)
     return res.data;
 })
 
 export const getPostAsync = createAsyncThunk("posts/getPostAsync", async (data) => {
-    const res = await axios.get(`${process.env.REACT_APP_REQUEST_DOMAIN}/api/posts/` + data.postId)
+    const res = await axios.get(`${process.env.REACT_APP_REQUEST_DOMAIN}posts/getById/` + data.postId)
     return res.data;
 })
 
