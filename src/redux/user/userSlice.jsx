@@ -184,6 +184,7 @@ export const userSlice = createSlice({
       state.isLoading = false;
       state.autharized = true;
       state.status = true;
+      console.log(action.payload)
       if (action.payload.error) {
         state.status = false;
         localStorage.setItem("error", JSON.stringify(action.payload.error));

@@ -50,7 +50,6 @@ function Edit() {
     console.log(res.data.url)
     console.log(formData)
   };
-  const categories = ["", "Bilim", "Sanat", "Eğitim", "Tanıtım", "Teknoloji", "Diğer"]
   const imageHandler = (cb, a, b) => {
     const input = document.createElement("input");
     input.setAttribute("type", "file");
@@ -62,6 +61,7 @@ function Edit() {
       console.warn("You could only upload images.");
     };
   };
+  const categories = ["", "Bilim", "Sanat", "Eğitim", "Tanıtım", "Teknoloji", "Diğer"]
   return (
     <div >
       <Dashboard text="Gönderi  Oluştur" />
